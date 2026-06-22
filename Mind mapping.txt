@@ -1,0 +1,7 @@
+White boarding
+In real-world projects, your brain should be able to write a quick efficient solution for complicated stuff and you can only do that when you practice a lot of coding questions. Understand that language and frameworks are just tools, they won’t teach you problem-solving skills. You develop problem-solving skills when you practice a lot of coding questions.
+
+
+What is given (input) and what you need to find out (output)? While going through the problem you need to ask a few questions yourself…
+
+Did you understand the problem fully? Would you be able to explain this question to someone else? What and how many inputs are required? What would be the output for those inputs Do you need to separate out some modules or parts from the problem? Do you have enough information to solve that question?
