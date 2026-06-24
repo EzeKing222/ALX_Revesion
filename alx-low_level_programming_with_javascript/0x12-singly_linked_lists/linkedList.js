@@ -19,19 +19,6 @@ class LinkedList {
         this.head = null;
     }
 
-    addNodeEnd(data) {
-        const newNode = new CreateNode(data);
-
-        if (!this.head) {
-            this.head = newNode;
-        } else {
-            let current = this.head
-            while (current.next) {
-                current = current.next;
-            }
-            current.next = newNode;
-        }
-    }
 }
 
 export { LinkedList, CreateNode };

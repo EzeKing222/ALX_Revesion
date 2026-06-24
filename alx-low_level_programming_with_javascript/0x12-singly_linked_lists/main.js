@@ -3,10 +3,11 @@
  */
 
 import { LinkedList } from './linkedList.js';
+import addNodeEnd from './3-addNodeEnd.js';
 
 const list = new LinkedList();
-list.addNodeEnd(10);
-list.addNodeEnd(20);
-list.addNodeEnd(30);
+addNodeEnd(list, 10);
+addNodeEnd(list, 20);
+addNodeEnd(list, 30);
 
 export default list;

@@ -13,7 +13,6 @@ function listLen(list) {
     if (!list.head) return console.log(`${count} Elements`);
 
     while (current) {
-        console.log(current.data);
         current = current.next;
         count++;
     }
