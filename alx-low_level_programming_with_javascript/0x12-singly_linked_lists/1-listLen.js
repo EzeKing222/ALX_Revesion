@@ -20,4 +20,4 @@ function listLen(list) {
 
 }
 
-listLen(list);
+export default listLen;
