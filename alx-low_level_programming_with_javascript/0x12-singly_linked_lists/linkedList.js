@@ -13,6 +13,7 @@ class CreateNode {
     };
 }
 
+
 class LinkedList {
     constructor() {
         this.head = null;
@@ -23,8 +24,7 @@ class LinkedList {
 
         if (!this.head) {
             this.head = newNode;
-        }
-        else {
+        } else {
             let current = this.head
             while (current.next) {
                 current = current.next;
