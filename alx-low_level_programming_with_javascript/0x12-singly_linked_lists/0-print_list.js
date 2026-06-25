@@ -16,4 +16,4 @@ function printList(list) {
     }
 }
 
-printList(list);
+export default printList;
