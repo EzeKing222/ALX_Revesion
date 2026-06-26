@@ -9,6 +9,7 @@ import addNodeBegin from './2-addNodeBegin.js';
 import addNodeN from './4-addNodeN.js';
 import printList from './0-print_list.js';
 import rmvBegin from './5-rmvBegin.js';
+import rmvEnd from './6-rmvEnd.js';
 
 const list = new LinkedList();
 addNodeEnd(list, 10);
@@ -21,6 +22,8 @@ console.log(`they are ${listLen(list)} elements in List`);
 rmvBegin(list);
 printList(list);
 console.log(`they are ${listLen(list)} elements in List`);
-
+rmvEnd(list);
+printList(list);
+console.log(`they are ${listLen(list)} elements in List`);
 
 export default list;

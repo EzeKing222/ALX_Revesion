@@ -11,6 +11,8 @@ function rmvBegin(list) {
         return;
     }
     list.head = list.head.next;
+
+    console.log("First node removed from the list.");
 }
 
 export default rmvBegin;
