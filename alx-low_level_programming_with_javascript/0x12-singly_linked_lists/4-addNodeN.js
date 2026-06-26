@@ -1,6 +1,9 @@
 /**
  * addNodeN - a function that add node at a given index (n) in a linked list.
  * return: nothing.
+ * @list: list Object.
+ * @data: node data.
+ * @n: the index to add node.
  */
 
 import { CreateNode, LinkedList } from "./linkedList.js";

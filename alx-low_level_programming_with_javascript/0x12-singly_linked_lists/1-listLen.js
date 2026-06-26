@@ -1,8 +1,8 @@
 /**
  * list_len - function that returns the number of elements in a linked list
-
+ * @list: list Object.
  * returns: the number of elements in a linked list
-*/
+ */
 
 import list from './main.js';
 

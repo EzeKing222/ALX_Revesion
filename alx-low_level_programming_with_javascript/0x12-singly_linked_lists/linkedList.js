@@ -7,6 +7,7 @@
  */
 
 class CreateNode {
+    // creating a node
     constructor(data) {
         this.data = data;
         this.next = null;
@@ -15,6 +16,7 @@ class CreateNode {
 
 
 class LinkedList {
+    //initializing a list
     constructor() {
         this.head = null;
     }
