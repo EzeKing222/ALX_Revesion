@@ -3,9 +3,6 @@
  * @list: list Object.
  * Return: void
  */
-import list from './main.js';
-
-
 function printList(list) {
     var current = list.head;
 

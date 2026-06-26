@@ -2,9 +2,6 @@
  * rmvEnd - removes the last node of a linked list
  * @list: list Object
  */
-
-import list from './main.js';
-
 function rmvEnd(list) {
     if (!list.head) {
         console.log("List is empty, nothing to remove.");

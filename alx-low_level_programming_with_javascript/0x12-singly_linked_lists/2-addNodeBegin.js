@@ -4,7 +4,8 @@
  * @data: the data to be stored in the new node
  * Return: void
  */
-import list from './main.js';
+
+
 import { CreateNode } from './linkedList.js';
 
 function addNodeBegin(list, data) {
